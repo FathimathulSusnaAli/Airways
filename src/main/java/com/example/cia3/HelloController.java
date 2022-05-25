@@ -15,7 +15,7 @@ public class HelloController {
     @FXML
     protected void onHelloButtonClick() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("home.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        Scene scene = new Scene(fxmlLoader.load(), 600, 600);
         Stage stage = new Stage();
         stage.setTitle("Airline Reservation System");
         stage.setScene(scene);
@@ -25,7 +25,7 @@ public class HelloController {
     @FXML
     protected void onSecondButtonClick() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("reservation.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        Scene scene = new Scene(fxmlLoader.load(), 600, 600);
         Stage stage = new Stage();
         stage.setTitle("Airline Reservation System");
         stage.setScene(scene);
@@ -38,7 +38,7 @@ public class HelloController {
     @FXML
     protected void onThirdButtonClick() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Signup.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        Scene scene = new Scene(fxmlLoader.load(), 600, 600);
         Stage stage = new Stage();
         stage.setTitle("Airline Reservation System");
         stage.setScene(scene);
@@ -48,7 +48,7 @@ public class HelloController {
     @FXML
     protected void onFourthButtonClick() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("About.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        Scene scene = new Scene(fxmlLoader.load(), 600, 600);
         Stage stage = new Stage();
         stage.setTitle("Airline Reservation System");
         stage.setScene(scene);
@@ -57,7 +57,7 @@ public class HelloController {
     @FXML
     protected void onFifthButtonClick() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("createacc.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        Scene scene = new Scene(fxmlLoader.load(), 600, 600);
         Stage stage = new Stage();
         stage.setTitle("Airline Reservation System");
         stage.setScene(scene);

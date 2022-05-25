@@ -19,7 +19,7 @@
             </Label>
          </center>
       </BorderPane>
-      <Label alignment="CENTER" layoutX="277.0" layoutY="159.0" prefHeight="26.0" prefWidth="119.0" style="-fx-background-color: SANDYBROWN;" text="Username" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="313.0" AnchorPane.topAnchor="159.0">
+      <Label alignment="CENTER" layoutX="277.0" layoutY="152.0" prefHeight="26.0" prefWidth="119.0" style="-fx-background-color: SANDYBROWN;" text="Username" textAlignment="JUSTIFY">
          <font>
             <Font name="Times New Roman Bold" size="16.0" />
          </font>
