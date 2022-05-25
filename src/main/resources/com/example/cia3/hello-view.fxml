@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <ImageView fitHeight="198.0" fitWidth="263.0" layoutX="30.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../airlines-reservation.jpg" />
-         </image></ImageView>
-   </children>
-</AnchorPane>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia3.HelloController">
+   <left>
+      <AnchorPane prefHeight="322.0" prefWidth="338.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="406.0" fitWidth="603.0" layoutX="-1.0" opacity="0.65" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../outline2.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="2.0" prefHeight="71.0" prefWidth="600.0" style="-fx-background-color: sandybrown;" textAlignment="RIGHT">
+               <font>
+                  <Font name="Algerian" size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="126.0" layoutY="12.0" prefHeight="54.0" prefWidth="338.0" style="-fx-background-color: sandybrown;" text="EASE MY TRIP">
+               <font>
+                  <Font name="Algerian" size="48.0" />
+               </font>
+            </Label>
+            <Button layoutX="28.0" layoutY="364.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="33.0" prefWidth="94.0" style="-fx-background-color: grey;" text="Home" textFill="#fcf8f8">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="224.0" layoutY="364.0" mnemonicParsing="false" onAction="#onSecondButtonClick" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: grey;" text="Reservation" textFill="#fcf8f8">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="457.0" layoutY="363.0" mnemonicParsing="false" onAction="#onFourthButtonClick" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: grey;" text="About us" textFill="#fcf8f8">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
