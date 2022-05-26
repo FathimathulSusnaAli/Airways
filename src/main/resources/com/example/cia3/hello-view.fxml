@@ -27,17 +27,22 @@
                   <Font name="Algerian" size="48.0" />
                </font>
             </Label>
-            <Button layoutX="28.0" layoutY="364.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="33.0" prefWidth="94.0" style="-fx-background-color: grey;" text="Home" textFill="#fcf8f8">
+            <Button layoutX="14.0" layoutY="363.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="33.0" prefWidth="94.0" style="-fx-background-color: grey;" text="Home" textFill="#fcf8f8">
                <font>
                   <Font name="Times New Roman Bold" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="224.0" layoutY="364.0" mnemonicParsing="false" onAction="#onSecondButtonClick" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: grey;" text="Reservation" textFill="#fcf8f8">
+            <Button layoutX="148.0" layoutY="364.0" mnemonicParsing="false" onAction="#onSecondButtonClick" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: grey;" text="Reservation" textFill="#fcf8f8">
                <font>
                   <Font name="Times New Roman Bold" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="457.0" layoutY="363.0" mnemonicParsing="false" onAction="#onFourthButtonClick" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: grey;" text="About us" textFill="#fcf8f8">
+            <Button layoutX="481.0" layoutY="363.0" mnemonicParsing="false" onAction="#onFourthButtonClick" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: grey;" text="About us" textFill="#fcf8f8">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="328.0" layoutY="363.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="34.0" prefWidth="102.0" style="-fx-background-color: grey;" text="Packages" textFill="#fcf8f8">
                <font>
                   <Font name="Times New Roman Bold" size="18.0" />
                </font>
