@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
@@ -74,7 +75,10 @@
                         <Image url="@../../../icon20.jpg" />
                      </image>
                   </ImageView>
-                  <ButtonBar layoutX="-41.0" layoutY="14.0" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: whilte;" />
+                  <ButtonBar layoutX="-41.0" layoutY="14.0" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: whilte;">
+                     <buttons>
+                        <Button fx:id="closeButton" mnemonicParsing="false" onAction="#closeButtonAction" text="Back" />
+                     </buttons></ButtonBar>
                </children>
             </AnchorPane>
          </left>
