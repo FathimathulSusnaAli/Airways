@@ -124,5 +124,6 @@
             <Image url="@../../../spport.jpg" />
          </image>
       </ImageView>
+
    </children>
 </AnchorPane>

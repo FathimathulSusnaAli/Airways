@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="454.0" prefWidth="646.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia3.ThankYou">
+   <children>
+      <ImageView fitHeight="305.0" fitWidth="521.0" layoutX="69.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../thankyouu.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
