@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="497.0" prefWidth="756.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia3.HelloController">
+<AnchorPane prefHeight="497.0" prefWidth="756.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia3.Booking">
    <children>
       <BorderPane opacity="0.81" prefHeight="526.0" prefWidth="758.0" style="-fx-background-color: sandybrown;">
          <left>
@@ -48,12 +48,6 @@
          <center>
             <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
-                  <Button contentDisplay="CENTER" layoutX="34.0" layoutY="74.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="140.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" text="FROM" textFill="Black
-">
-                     <font>
-                        <Font name="Times New Roman Bold" size="21.0" />
-                     </font>
-                  </Button>
                   <Button layoutX="283.0" layoutY="74.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="145.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" text="TO">
                      <font>
                         <Font name="Times New Roman Bold" size="21.0" />
@@ -121,14 +115,19 @@
                         <Image url="@../../../offer2.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="137.0" fitWidth="188.0" layoutX="490.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../offer4.jpg" />
-                     </image>
-                  </ImageView>
                   <Button layoutX="34.0" layoutY="28.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="129.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" text="ONE WAY" textFill="#1e1c1c">
                      <font>
                         <Font name="Algerian" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button contentDisplay="CENTER" layoutX="29.0" layoutY="77.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="140.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" text="FROM" textFill="#0d0c0c">
+                     <font>
+                        <Font name="Times New Roman Bold" size="21.0" />
+                     </font>
+                  </Button>
+                  <Button contentDisplay="CENTER" layoutX="39.0" layoutY="87.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="140.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" text="FROM" textFill="#0d0c0c">
+                     <font>
+                        <Font name="Times New Roman Bold" size="21.0" />
                      </font>
                   </Button>
                </children>
