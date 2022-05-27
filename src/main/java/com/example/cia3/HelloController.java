@@ -3,6 +3,7 @@ package com.example.cia3;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
@@ -11,6 +12,9 @@ import java.io.IOException;
 public class HelloController {
     @FXML
     private Label welcomeText;
+
+    @FXML
+    public Button closeButton;
 
     @FXML
     protected void onHelloButtonClick() throws IOException {
@@ -47,7 +51,7 @@ public class HelloController {
 
     @FXML
     protected void onFourthButtonClick() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("About.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("feedback.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 600);
         Stage stage = new Stage();
         stage.setTitle("Airline Reservation System");
@@ -71,6 +75,20 @@ public class HelloController {
         stage.setTitle("Airline Reservation System");
         stage.setScene(scene);
         stage.show();
+    }
+
+    @FXML
+    private void closeButtonAction() throws IOException {
+        // get a handle to the stage
+        Stage stage = (Stage) closeButton.getScene().getWindow();
+        stage.close();
+//
+//        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+//        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+//        Stage nstage = new Stage();
+//        nstage.setTitle("HOME");
+//        nstage.setScene(scene);
+//        nstage.show();
     }
 
 

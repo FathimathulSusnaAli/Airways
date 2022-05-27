@@ -4,6 +4,8 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -13,14 +15,6 @@
    <children>
       <AnchorPane layoutX="56.0" layoutY="36.0" prefHeight="489.0" prefWidth="698.0" style="-fx-background-color: sandybrown;">
          <children>
-            <Button layoutX="27.0" layoutY="99.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="144.0" style="-fx-border-color: BLACK; -fx-background-color: WHITE;" text="TO">
-               <font>
-                  <Font name="Algerian" size="20.0" />
-               </font></Button>
-            <Button layoutX="213.0" layoutY="99.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="136.0" style="-fx-border-color: BLACK; -fx-background-color: WHITE;" text="FROM">
-               <font>
-                  <Font name="Algerian" size="20.0" />
-               </font></Button>
             <Button layoutX="27.0" layoutY="167.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="144.0" style="-fx-border-color: BLACK; -fx-background-color: WHITE;" text="DEPARTURE DATE">
                <font>
                   <Font name="Algerian" size="14.0" />
@@ -102,6 +96,25 @@
                   <Image url="@../../../accomo.jpg" />
                </image>
             </ImageView>
+            <MenuButton layoutX="50.0" layoutY="93.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="105.0" text="FROM">
+              <items>
+                <MenuItem mnemonicParsing="false" text="India" />
+                <MenuItem mnemonicParsing="false" text="Pune" />
+                  <MenuItem mnemonicParsing="false" text="Dubai" />
+                  <MenuItem mnemonicParsing="false" text="Sharjah" />
+                  <MenuItem mnemonicParsing="false" text="Bahrain" />
+              </items>
+            </MenuButton>
+            <MenuButton layoutX="232.0" layoutY="93.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="120.0" text="TO">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Bahrain" />
+                <MenuItem mnemonicParsing="false" text="UAE" />
+                  <MenuItem mnemonicParsing="false" text="Pune" />
+                  <MenuItem mnemonicParsing="false" text="Sharjah" />
+                  <MenuItem mnemonicParsing="false" text="Bahrain" />
+                  <MenuItem mnemonicParsing="false" text="Dubai" />
+              </items>
+            </MenuButton>
          </children>
       </AnchorPane>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="210.0" layoutY="-2.0" prefHeight="40.0" prefWidth="334.0" text="BOOK A FLIGHT" textFill="#f8f5f5">
