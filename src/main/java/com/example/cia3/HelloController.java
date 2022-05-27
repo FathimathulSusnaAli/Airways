@@ -63,5 +63,14 @@ public class HelloController {
         stage.setScene(scene);
         stage.show();
     }
+    @FXML
+    protected void onSixthButtonClick() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Booking.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 600, 600);
+        Stage stage = new Stage();
+        stage.setTitle("Airline Reservation System");
+        stage.setScene(scene);
+        stage.show();
+    }
 
 }
