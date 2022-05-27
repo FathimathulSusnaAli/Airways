@@ -30,8 +30,8 @@
                <font>
                   <Font name="Algerian" size="15.0" />
                </font></Button>
-            <DatePicker layoutX="115.0" layoutY="213.0" prefHeight="25.0" prefWidth="43.0" />
-            <DatePicker layoutX="290.0" layoutY="213.0" prefHeight="14.0" prefWidth="37.0" />
+            <DatePicker layoutX="77.0" layoutY="213.0" prefHeight="26.0" prefWidth="88.0" />
+            <DatePicker layoutX="252.0" layoutY="213.0" prefHeight="26.0" prefWidth="88.0" />
             <Button layoutX="27.0" layoutY="253.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-border-color: BLACK; -fx-background-color: WHITE;" text="TRAVELLERS">
                <font>
                   <Font name="Algerian" size="16.0" />

@@ -5,14 +5,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="434.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia3.Feedback">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="681.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia3.HelloController">
    <children>
-      <ImageView fitHeight="434.0" fitWidth="651.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="475.0" fitWidth="681.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../fb3.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="263.0" fitWidth="214.0" layoutX="397.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="297.0" fitWidth="225.0" layoutX="402.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../fb.jpg" />
          </image>

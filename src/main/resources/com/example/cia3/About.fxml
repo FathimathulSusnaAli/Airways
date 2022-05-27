@@ -1,15 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia3.HelloController">
+<AnchorPane prefHeight="497.0" prefWidth="756.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia3.HelloController">
    <children>
-      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+      <BorderPane layoutX="198.0" prefHeight="71.0" prefWidth="558.0" style="-fx-background-color: BLACK;">
+         <center>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="305.0" text="LOGIN PAGE" textFill="#f7f4f4" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Algerian" size="36.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+      <Label alignment="CENTER" layoutX="277.0" layoutY="152.0" prefHeight="26.0" prefWidth="119.0" style="-fx-background-color: SANDYBROWN;" text="Username" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="277.0" layoutY="204.0" prefHeight="26.0" prefWidth="119.0" style="-fx-background-color: SANDYBROWN;" text="Password" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Times New Roman Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="325.0" layoutY="276.0" mnemonicParsing="false" onAction="#onSixthButtonClick" prefHeight="10.0" prefWidth="247.0" style="-fx-background-color: SANDYBROWN;" text="LOGIN">
+         <font>
+            <Font name="Algerian" size="17.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="325.0" layoutY="327.0" mnemonicParsing="false" onAction="#onThirdButtonClick" prefHeight="10.0" prefWidth="247.0" style="-fx-background-color: SANDYBROWN;" text="SIGN UP">
+         <font>
+            <Font name="Algerian" size="17.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="378.0" layoutY="386.0" prefHeight="26.0" prefWidth="132.0" text="Forgot?">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <AnchorPane prefHeight="497.0" prefWidth="198.0" style="-fx-background-color: sandybrown;">
          <children>
-            <Button layoutX="183.0" layoutY="138.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="195.0" text="About Us" />
+            <ImageView fitHeight="61.0" fitWidth="69.0" layoutX="113.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../hotellogo.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="61.0" fitWidth="96.0" layoutX="10.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../flightlogo.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="21.0" layoutY="152.0" text="Flights">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="118.0" layoutY="152.0" text="Holidays">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="56.0" fitWidth="66.0" layoutX="14.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../car.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="61.0" fitWidth="69.0" layoutX="116.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Activities.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="29.0" layoutY="286.0" prefHeight="16.0" prefWidth="37.0" text="Cab">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="121.0" layoutY="286.0" text="Activities">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="116.0" layoutY="424.0" text="Restaurants">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="61.0" fitWidth="79.0" layoutX="8.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="16.0" layoutY="424.0" text="Chat Services">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="61.0" fitWidth="61.0" layoutX="19.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../chat.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="61.0" fitWidth="62.0" layoutX="113.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Holidays.jpg" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
+      <TextField layoutX="468.0" layoutY="152.0" prefHeight="26.0" prefWidth="180.0" />
+      <TextField layoutX="468.0" layoutY="204.0" prefHeight="26.0" prefWidth="180.0" />
    </children>
 </AnchorPane>
