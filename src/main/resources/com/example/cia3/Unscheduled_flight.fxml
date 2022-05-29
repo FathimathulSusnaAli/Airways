@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="362.0" prefWidth="672.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia3.Data">
+    <children>
+        <AnchorPane layoutX="20.0" layoutY="35.0" prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <TableView fx:id="datatable" layoutX="-13.0" layoutY="45.0" prefHeight="211.0" prefWidth="660.0">
+                    <columns>
+                        <TableColumn fx:id="ap_NUMBER" prefWidth="69.5999755859375" text="NUMBER" />
+                        <TableColumn fx:id="ap_DATE" prefWidth="57.5999755859375" text="DATE" />
+                        <TableColumn fx:id="ap_DESTINATION" prefWidth="88.79998779296875" text="DESTINATION" />
+                        <TableColumn fx:id="ap_SCH_DEPARTTIME" prefWidth="119.199951171875" text="SCH_DEPARTTIME" />
+                        <TableColumn fx:id="ap_PLANETYPE" prefWidth="84.800048828125" text="PLANETYPE" />
+                  <TableColumn fx:id="ap_CAPACITY" prefWidth="65.60003662109375" text="CAPACITY" />
+                  <TableColumn fx:id="ap_RESERVED_S" prefWidth="75.2000732421875" text="RESERVES_S" />
+                  <TableColumn fx:id="ap_AVAILABLE_S" prefWidth="92.7999267578125" text="AVAILABLE_S" />
+                    </columns>
+                </TableView>
+            </children>
+        </AnchorPane>
+      <Button layoutY="1.0" mnemonicParsing="false" onAction="#datatable" text="SHOW" />
+    </children>
+</AnchorPane>

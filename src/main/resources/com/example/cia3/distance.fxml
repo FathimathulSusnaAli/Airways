@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="362.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia3.distance">
+   <children>
+      <TableView fx:id="distancetable" layoutX="40.0" layoutY="82.0" prefHeight="197.0" prefWidth="534.0">
+        <columns>
+          <TableColumn fx:id="ap_AIRPORT_CODE" prefWidth="106.39997100830078" text="AIRPORT_CODE" />
+          <TableColumn fx:id="ap_AIRPORT_LOCATION" prefWidth="125.5999755859375" text="AIRPORT_LOCATION" />
+            <TableColumn fx:id="ap_YEAR_OPENED" prefWidth="125.5999755859375" text="YEAR_OPENED" />
+            <TableColumn fx:id="ap_NUMBER_OF_TERMINALS" prefWidth="169.60000610351562" text="NUMBER_OF_TERMINALS" />
+        </columns>
+      </TableView>
+      <Button layoutY="1.0" mnemonicParsing="false" onAction="#distancetable" text="SHOW" />
+   </children>
+</AnchorPane>

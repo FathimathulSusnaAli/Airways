@@ -4,14 +4,13 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.MenuButton?>
-<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="755.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="755.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cia3.HelloController">
    <children>
       <AnchorPane layoutX="56.0" layoutY="36.0" prefHeight="489.0" prefWidth="698.0" style="-fx-background-color: sandybrown;">
          <children>
@@ -56,7 +55,7 @@
                   <Font name="Algerian" size="12.0" />
                </font>
             </CheckBox>
-            <Button layoutX="47.0" layoutY="404.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="273.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" text="SEARCH FLIGHTS">
+            <Button fx:id="searchData" layoutX="52.0" layoutY="396.0" minHeight="18.0" mnemonicParsing="false" onAction="#onSeventhButtonClick" prefHeight="36.0" prefWidth="274.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" text="SEARCH FLIGHTS">
                <font>
                   <Font name="Algerian" size="20.0" />
                </font>
@@ -96,25 +95,13 @@
                   <Image url="@../../../accomo.jpg" />
                </image>
             </ImageView>
-            <MenuButton layoutX="50.0" layoutY="93.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="105.0" text="FROM">
-              <items>
-                <MenuItem mnemonicParsing="false" text="India" />
-                <MenuItem mnemonicParsing="false" text="Pune" />
-                  <MenuItem mnemonicParsing="false" text="Dubai" />
-                  <MenuItem mnemonicParsing="false" text="Sharjah" />
-                  <MenuItem mnemonicParsing="false" text="Bahrain" />
-              </items>
-            </MenuButton>
-            <MenuButton layoutX="232.0" layoutY="93.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="120.0" text="TO">
-              <items>
-                <MenuItem mnemonicParsing="false" text="Bahrain" />
-                <MenuItem mnemonicParsing="false" text="UAE" />
-                  <MenuItem mnemonicParsing="false" text="Pune" />
-                  <MenuItem mnemonicParsing="false" text="Sharjah" />
-                  <MenuItem mnemonicParsing="false" text="Bahrain" />
-                  <MenuItem mnemonicParsing="false" text="Dubai" />
-              </items>
-            </MenuButton>
+            <TextField alignment="CENTER" layoutX="24.0" layoutY="116.0" prefHeight="26.0" prefWidth="130.0" promptText="To" style="-fx-background-color: white; -fx-border-color: BLACK;" />
+            <TextField alignment="CENTER" layoutX="238.0" layoutY="116.0" prefHeight="26.0" prefWidth="130.0" promptText="FROM" style="-fx-background-color: white; -fx-border-color: BLACK;" />
+            <Button fx:id="searchData1" layoutX="63.0" layoutY="446.0" minHeight="18.0" mnemonicParsing="false" onAction="#onEigthButtonClick" prefHeight="36.0" prefWidth="258.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" text="RESHEDULED FLIGHTS">
+               <font>
+                  <Font name="Algerian" size="20.0" />
+               </font>
+            </Button>
          </children>
       </AnchorPane>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="210.0" layoutY="-2.0" prefHeight="40.0" prefWidth="334.0" text="BOOK A FLIGHT" textFill="#f8f5f5">
